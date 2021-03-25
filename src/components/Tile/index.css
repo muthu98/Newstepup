@@ -1,0 +1,49 @@
+.tile{
+    background: url("../../assets/teal.svg");
+    background-color: #00B2A9;
+    display: flex;
+    flex-direction: column;
+    width: 462px;
+    height:314px;
+    border-radius: 10px;
+    background-blend-mode: saturation;
+    background-size: cover;
+    margin: 20px;
+    padding-left: 20px;
+}
+
+.Guest:hover{
+    transform: translate(15px,-10px);
+}
+.Team {
+    background-color: #913088;
+    background-image: url('../../assets/purple.svg');
+    background-size: cover;
+  }
+  .Team:hover {
+    transform: translate(0px, 15px);
+  }
+  .Standard {
+    background-image: url('../../assets/red.svg');
+    background-color: #c3392e;
+    background-size: cover;
+    width: 241px;
+    height: 314px;
+  }
+  .Standard:hover {
+    transform: translate(-15px, -10px);
+  }
+  .card:hover {
+    box-shadow: -9px 10px 18px -8px rgba(0, 0, 0, 0.73);
+  }
+.tileHeading{
+    font: normal normal bold 34px Helvetica;
+letter-spacing: 0px;
+color: #FFFFFF;
+text-shadow: 0px 3px 6px #00000029;
+opacity: 1;
+font-weight: 600;
+}
+.tiles{
+    display: flex;
+}

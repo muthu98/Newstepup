@@ -1,0 +1,25 @@
+
+.root{
+    padding-left: 114px;
+    padding-top: 166px;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+.Heading{
+   
+top: 166px;
+left: 114px;
+width: 1091px;
+height: 50px;
+font: normal normal bold 42px/52px Helvetica;
+letter-spacing: 0px;
+font-weight: bold !important;
+color: #222222;
+padding-bottom: 15px;
+
+}
+.tileContainer{
+    display: flex;
+    
+}
